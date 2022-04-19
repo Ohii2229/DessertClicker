@@ -65,9 +65,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        Log.i("MainActivity", "onCreate Called")
-
         Timber.i("onCreate called")
 
         // Use Data Binding to get reference to the views
@@ -155,7 +152,6 @@ class MainActivity : AppCompatActivity() {
     /** Lifecycle Methods **/
     override fun onStart() {
         super.onStart()
-        Log.i("MainActivity", "onStart Called")
         Timber.i("onStart called")
     }
 
